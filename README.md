@@ -1,6 +1,6 @@
-# React + Vite
+# Habit Tracker | Student
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot of my habit tracker for student using react.js and node.js](/Screenshot 2024-11-16 143245.png)
 
 Currently, two official plugins are available:
 
