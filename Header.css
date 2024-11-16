@@ -1,0 +1,19 @@
+.navbar1-container {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  font-size: 0.9em;
+  border-bottom: 1px solid rgb(229, 228, 229);
+}
+.container-fluid {
+  width: inherit;
+}
+.navbar-collapse {
+  width: 100%;
+  display: flex;
+  gap: 124px;
+}
+
+.navbar-nav {
+  gap: 5px;
+}

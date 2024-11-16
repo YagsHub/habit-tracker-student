@@ -1,0 +1,17 @@
+
+.content-Container {
+    max-width: 100dvw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.img-fluid {
+    max-width: 90%;
+}
+
+.title h1 {
+    font-size: 3em;
+}

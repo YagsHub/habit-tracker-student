@@ -1,0 +1,53 @@
+/* General reset and styling */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Set height to full viewport */
+}
+
+/* Sidebar styling */
+.sidebar1 {
+  width: 20%;
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styling */
+.main-content {
+  width: 60%;
+}
+
+/* Right-side content styling */
+.right-side {
+  width: 40%;
+  background-color: #f9f9f9; /* Slightly different gray */
+  padding: 20px;
+  border-left: 1px solid #ccc; /* Optional border for separation */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar,
+  .main-content,
+  .right-side { 
+    width: 100%;
+  }
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
